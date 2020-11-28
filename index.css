@@ -30,7 +30,8 @@ body {
     height: 42px;
     padding: 0 15px;
     margin: 0 auto;
-    background-color: red;
+   position: relative;
+    
 }
 .fixed-top {
     position: fixed;
@@ -45,5 +46,43 @@ body {
 }
 .logo {
     float: left;
-    background-color: blue;
+    width: 37.79px;
+    height: 100%;
 }
+.logo img {
+    width: 37.79px;
+}
+.menu1 {
+    position: absolute;
+    right: 0px;
+    top: opx;
+    bottom: 0px;
+    width: 454px;
+    height: 100%;
+}
+.menu1 ul {
+    height: 100%;
+}
+.menu1 li {
+    list-style: none;
+    float: right;
+    height: 100%;
+}
+.menu1 li a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    padding: 0 19px;
+    margin-top: 9px;
+    font-size: 14px;
+    
+}
+.menu1 li .Github {
+    border: 1px solid black;
+    margin-top: -3px;
+    line-height: 42px;
+    background-color:#5777ba;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+}
+
