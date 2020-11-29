@@ -133,6 +133,39 @@ body {
     font-size: 20px;
     font-weight: 400;
 }
+.box5 a {
+    text-decoration: none;
+    height: 22.4px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 46px;
+    padding-right: 24px;
+    border: pink 1px solid;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    transition: all 1s;
+    background-color: pink;
+    cursor: pointer;
+
+
+}
+.box5 a:hover {
+   background-color: #13d8df;
+}
+.box5 .githubXiazai {
+    background-image: url(image/小屋.png);
+    background-repeat: no-repeat;
+    background-position: 12px 3px;
+}
+.box5 .LanzouXiazai {
+    background-image: url(image/云.png);
+    background-repeat: no-repeat;
+    background-position: 12px 6px;
+
+}
+
+
 
 
 
