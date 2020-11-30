@@ -37,8 +37,8 @@
         <div class="box3">
             <div class="box4">
                 <div class="box5 fadeInUp animated">
-                    <h1 id="box5h1">AnimeSearcher弹幕动漫搜索器</h1>
-                    <h2 id="box5h2">跨平台视频资源播放器，简洁免费无广告</h2>
+                    <h1 id="box5h1" data-scroll-reveal="bottom">AnimeSearcher弹幕动漫搜索器</h1>
+                    <h2 id="box5h2" data-scroll-reveal="bottom">跨平台视频资源播放器，简洁免费无广告</h2>
                     <a href="https://github.com/zaxtyson/AnimeSearcher/" target="_blank" class="githubXiazai">Github
                         下载</a>
                     <a href="https://zaxtyson.lanzous.com/b0f1ukafc" target="_blank" style="margin-left: 20px;"
@@ -55,14 +55,57 @@
     <!-- 第二个大盒子：box-2,注：box2在box1内 -->
     <div class="box-2 fadeIn animated">
         <div class="box-2-1">
-            <div class="box-2-2">
-                <h2 data-scroll-reveal: bottom>软件特色</h2>
+            <div class="box-2-2" data-scroll-reveal="bottom">
+                <h2 data-scroll-reveal="bottom">软件特色</h2>
                 <p>经过三大小版本更迭，软件功能独特，操作简单，体验优良</p>
+            </div>
+            <div class="box-2-3">
+                <div class="box-2-4">
+                    <div class="box-2-6">
+                        <div class="box-2-7">
+                            <div id="liu" data-scroll-reveal="bottom">
+                                <h4>浏览</h4>
+                                <p>浏览全网热门动漫.支持切换视频源.详细的动漫分类.支持搜索动漫名.</p>
+                            </div>
+                            <div id="bo" data-scroll-reveal="bottom">
+                                <h4>播放</h4>
+                                <p>支持视频连播, 支持多种播放速度, 支持弹幕匹配！ 支持全屏播放模式</p>
+                            </div>
+                        </div>
+                        <div class="box-2-8">
+                            <div id="T" data-scroll-reveal="bottom">
+                                <h4>TVlive</h4>
+                                <p>在线观看电视频道, 一键播放. 不一样的体验.</p>
+                            </div>
+                            <div id="fen" data-scroll-reveal="bottom">
+                                <h4>分享</h4>
+                                <p>赞不支持</p>
+                            </div>
+                        </div>
+                        <div class="box-2-9">
+                            <div id="xia" data-scroll-reveal="bottom">
+                                <h4>下载</h4>
+                                <p>在线观看，无需下载</p>
+                            </div>
+                            <div id="qi" data-scroll-reveal="bottom">
+                                <h4>其他</h4>
+                                <p>主题切换, 沉浸模式, 检查更新</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box-2-5" data-scroll-reveal="bottom"></div>
             </div>
         </div>
     </div>
 
-
+    <script src="js/scrollReveal.js"></script>
+    <script>
+        (function () {
+            window.scrollReveal = new scrollReveal({ reset: true, move: '50px' });
+        })();
+    </script>
 </body>
 
 </html>
