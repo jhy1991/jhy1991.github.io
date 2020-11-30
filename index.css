@@ -98,6 +98,8 @@ body {
     width: 100%;
     padding-top: 140px;
     padding-bottom: 100px;
+    display: flex;
+
 
 }
 
@@ -182,6 +184,9 @@ body {
     width: 100%;
     height: 524px;
     padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .box-2-1 {
     margin: 0 195.5px;
@@ -207,6 +212,108 @@ body {
 .box-2-2 p {
     text-align: center;
 }
+.box-2-3 {
+    width: 1110px;
+    height: 412px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-2-4 {
+    float: left;
+    width: 647.5px;
+    height: 100%;
+}
+.box-2-5 {
+    height: 100%;
+    width: 462.5px;
+    float: left;
+    background-image: url(image/信.png);
+    background-position: 0px 100px;
+}
+.box-2-6 {
+    width: 100%;
+    height: 323.75px;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.box-2-6 div {
+    width: 300px;
+    height: 99.8px;
+    padding: 0 15px;
+    margin-top: 30px;
+
+}
+.box-2-7 {
+    display: flex;
+    height: 100px;
+    width: 647.5px!important;
+}
+.box-2-8 {
+    display: flex;
+    height: 100px;
+    width: 647.5px!important;
+}
+.box-2-9 {
+    display: flex;
+    height: 100px;
+    width: 647.5px!important;
+}
+.box-2-6 h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 10px 60px;
+    color: #585a61;
+}
+.box-2-6 p{
+    font-size: 15px;
+    color: #979aa1;
+    margin-left: 60px;
+}
+#liu {
+    background-image: url(image/浏览.png);
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+}
+#bo {
+    background-image: url(image/播放.png);
+    background-repeat: no-repeat;
+    background-position: -3px -8px;
+}
+#T {
+    background-image: url(image/TVlive.png);
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+}
+#fen {
+    background-image: url(image/分享.png);
+    background-repeat: no-repeat;
+    background-position: -5px -8px;
+}
+#xia {
+    background-image: url(image/下载.png);
+    background-repeat: no-repeat;
+    background-position: 0px -5px;
+}
+#qi {
+    background-image: url(image/其他.png);
+    background-repeat: no-repeat;
+    background-position: 0px -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
