@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 body {
     font-family: "Open Sans",sans-serif;
@@ -329,6 +330,33 @@ body {
     color: #585a61;
     text-align: center;
 
+}
+.problem {
+    width: 100%;
+    height: 440px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 100px;
+
+}
+.Wenti {
+    width: 1110px;
+    height: 58.4px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.Wenti h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #5777ba;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.problemfarther {
+    display: flex;
+    justify-content: center;
 }
 
 
