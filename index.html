@@ -7,6 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/animate.css">
+    <script src="js/glide.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="stylesheet" href="css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -131,14 +136,75 @@
             </div>
         </div>
     </div>
+    <div class="Jietu" data-scroll-reveal="bottom">
+        <h2>预览</h2>
+        <p>点击箭头或拖动图片切换</p>
+    </div>
+    <!-- 轮播图 -->
+    <div class="images glide bo">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">
+                    <img src="image/1.png" alt="" data-scroll-reveal="bottom">
+                </li>
 
+                <li class="glide__slide">
+                    <img src="image/2.png" alt="" data-scroll-reveal="bottom">
+                </li>
 
+                <li class="glide__slide">
+                    <img src="image/3.png " alt="" data-scroll-reveal="bottom">
+                </li>
+
+                <li class="glide__slide">
+                    <img src="image/4.png" alt="" data-scroll-reveal="bottom">
+                </li>
+
+                <li class="glide__slide">
+                    <img src="image/5.png" alt="" data-scroll-reveal="bottom">
+                </li>
+
+                <li class="glide__slide">
+                    <img src="image/6.png" alt="" data-scroll-reveal="bottom">
+                </li>
+                <li class="glide__slide">
+                    <img src="image/7.png" alt="" data-scroll-reveal="bottom">
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i
+                    class="fas fa-arrow-left"></i></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i
+                    class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <script>
+        new Glide(".images", {
+            type: 'carousel',
+            perView: 5,
+            focusAt: 'center',
+            gap: 40,
+            breakpoints: {
+                1200: {
+                    perView: 3
+                },
+                800: {
+                    perView: 2
+                }
+            }
+        }).mount();
+    </script>
     <script src="js/scrollReveal.js"></script>
     <script>
         (function () {
             window.scrollReveal = new scrollReveal({ reset: true, move: '50px' });
         })();
     </script>
+
 </body>
 
 </html>
