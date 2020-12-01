@@ -309,6 +309,28 @@ body {
     font-size: 40px;
     font-family: 'icomoon';   
 }
+.Jietu {
+    width: 1110px;
+    height: 112.4px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.Jietu h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #5777ba;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.Jietu p {
+    font-family: "Open Sans", sans-serif;
+    color: #585a61;
+    text-align: center;
+
+}
+
 
 
 
