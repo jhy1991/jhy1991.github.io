@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="css/glide.core.min.css">
     <link rel="stylesheet" href="css/glide.theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -181,6 +183,51 @@
                     class="fas fa-arrow-right"></i></button>
         </div>
     </div>
+    <!-- 菜单栏 -->
+    <div class="problemfarther">
+        <div class="problem">
+            <div class="Wenti">
+                <h2 data-scroll-reveal="bottom">主菜单栏</h2>
+            </div>
+            <div class="middle">
+                <div class="menu">
+                    <li class="item" id='profile'>
+                        <a href="#profile" class="btn" data-scroll-reveal="bottom"><i class="far fa-user"></i>个人</a>
+                        <div class="smenu">
+                            <a href="#">头像</a>
+                            <a href="#">个人信息</a>
+                        </div>
+                    </li>
+
+                    <li class="item" id="messages">
+                        <a href="#messages" class="btn" data-scroll-reveal="bottom"><i
+                                class="far fa-envelope"></i>消息</a>
+                        <div class="smenu">
+                            <a href="#">新消息</a>
+                            <a href="#">草稿箱</a>
+                            <a href="#">邮件</a>
+                        </div>
+                    </li>
+
+                    <li class="item" id="settings">
+                        <a href="#settings" class="btn" data-scroll-reveal="bottom"><i class="fas fa-cog"></i>设置</a>
+                        <div class="smenu">
+                            <a href="#">密码</a>
+                            <a href="#">语言</a>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <a class="btn" href="#" data-scroll-reveal="bottom"><i class="fas fa-sign-out-alt"></i>注销</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
     <script>
         new Glide(".images", {
@@ -204,7 +251,6 @@
             window.scrollReveal = new scrollReveal({ reset: true, move: '50px' });
         })();
     </script>
-
 </body>
 
 </html>
