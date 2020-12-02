@@ -231,8 +231,12 @@ body {
     height: 100%;
     width: 462.5px;
     float: left;
-    background-image: url(image/信.png);
-    background-position: 0px 100px;
+
+}
+.box-2-5 img {
+    width: 250px;
+    margin-top: 200px;
+    padding-left: 110px;
 }
 .box-2-6 {
     width: 100%;
@@ -412,7 +416,35 @@ body {
     display: block;
     margin-top: -3px;
 }
+@font-face {
+    font-family:
+        'iconfont'
+    ;
+    src: url('iconfont.eot'
+        );
+    src: url('iconfont.eot?#iefix'
+        ) format('embedded-opentype'
+        ), url('iconfont.woff'
+        ) format('woff'
+        ), url('iconfont.ttf'
+        ) format('truetype'
+        ), url('iconfont.svg#iconfont'
+        ) format('svg'
+        );
+}
 
+.iconfont {
+    font-family:
+        "iconfont"
+         !important;
+    /* font-size: 34px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+    padding-top: 5px; */
+}
 
 
 
