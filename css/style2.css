@@ -36,7 +36,7 @@
 .smenu{
   background: #13D8DF;
   overflow: hidden;
-  transition: max-height 0.3s;
+  transition: max-height 0.5s;
   max-height: 0;
 }
 .smenu a{
@@ -55,7 +55,7 @@
   background:pink;
   left: 0;
   top: 0;
-  transition: 0.3s;
+  transition: 0.5s;
   opacity: 0;
 }
 .smenu a:hover:before{
