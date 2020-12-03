@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/iconfont.css">
-
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -26,6 +25,14 @@
             font-weight: normal;
             font-style: normal;
             font-display: block;
+        }
+
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
         }
     </style>
 </head>
@@ -41,12 +48,17 @@
             <!-- 右上角菜单了 -->
             <div class="menu1">
                 <ul>
-                    <li><a href="#" class="Github">Github</a></li>
-                    <li><a href="#">常见问题</a></li>
-                    <li><a href="#">截图</a></li>
-                    <li><a href="#">特色</a></li>
-                    <li><a href="#">文档</a></li>
                     <li><a href="#" style="color: #5777ba">Home</a></li>
+                    <li><a href="#">文档</a></li>
+                    <li><a href="#">特色</a></li>
+                    <li><a href="#">截图</a></li>
+                    <li><a href="#">问题</a></li>
+                    <li><a href="#" class="Github">Github</a></li>
+
+
+
+
+
 
                 </ul>
             </div>
@@ -67,7 +79,7 @@
                             class="LanzouXiazai">蓝奏下载</a>
                     </div>
                     <div class="box6 fadeInUp animated">
-                        <img src="image/index.png" alt="index.png">
+                        <img src="image/index.png" alt="index.png" data-scroll-reveal="bottom">
                     </div>
 
                 </div>
@@ -193,11 +205,11 @@
     <div class="problemfarther">
         <div class="problem">
             <div class="Wenti">
-                <h2 data-scroll-reveal="bottom">主菜单栏</h2>
+                <h2 data-scroll-reveal="bottom" id="profile">主菜单栏</h2>
             </div>
             <div class="middle">
                 <div class="menu">
-                    <li class="item" id="profile">
+                    <li class="item">
                         <a href="#profile" class="btn" data-scroll-reveal="bottom"><i class="far fa-user"></i>个人</a>
                         <div class="smenu">
                             <a href="#">头像</a>
@@ -223,7 +235,7 @@
                     </li>
 
                     <li class="item">
-                        <a class="btn" href="#" data-scroll-reveal="bottom"><i class="fas fa-sign-out-alt"></i>注销</a>
+                        <a class="btn" href="#" data-scroll-reveal="bottom"><i class="fas fa-sign-out-alt"></i>返回顶部</a>
                     </li>
                 </div>
             </div>
@@ -268,11 +280,93 @@
             </div>
         </div>
     </div>
+    <!-- 导论作业框架 -->
+    <div class="zhou">
+        <div class="zhou-1">
+            <div class="zhou-2">
+                <div class="Touxiang">
 
+                </div>
+                <div class="title">
+                    <h4 data-scroll-reveal="bottom"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-zhuanji-
 
+                        "></use>
+                        </svg></h4>
+                    <h2>周杰伦</h2>
+                    <h4 data-scroll-reveal="bottom">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yinle1
+                            "></use>
+                        </svg>
+                    </h4>
+                </div>
+            </div>
+            <div class="zhou-3">
+                <div class="zhou-4">
+                    <div class="Bofang">
+                        <ul>
+                            <li data-scroll-reveal="bottom">
 
+                                <a href="杰伦mvHTML/晴天.html" target="ff"> <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-bofang2"></use>
+                                    </svg></a>
 
+                                <h3>晴天</h3>
+                            </li>
+                            <li data-scroll-reveal="bottom">
+                                <a href="杰伦mvHTML/稻香.html" target="ff"><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-bofang2"></use>
+                                    </svg></a>
 
+                                <h3>稻香</h3>
+                            </li>
+                            <li data-scroll-reveal="bottom">
+                                <a href="杰伦mvHTML/夜曲.html" target="ff">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-bofang2"></use>
+                                    </svg>
+                                </a>
+
+                                <h3>夜曲</h3>
+                            </li>
+                            <li data-scroll-reveal="bottom">
+                                <a href="杰伦mvHTML/等你下课.html" target="ff">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-bofang2"></use>
+                                    </svg>
+                                </a>
+
+                                <h3>等你下课</h3>
+                            </li>
+                            <li data-scroll-reveal="bottom">
+                                <a href="杰伦mvHTML/说好不哭.html" target="ff">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-bofang2"></use>
+                                    </svg>
+                                </a>
+
+                                <h3>说好不哭</h3>
+                            </li>
+                            <li data-scroll-reveal="bottom">
+                                <a href="杰伦mvHTML/以父之名.html" target="ff">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-bofang2"></use>
+                                    </svg>
+                                </a>
+
+                                <h3>以父之名</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="zhou-5">
+                    <iframe src="zhou.html" frameborder="0" name="ff" width="910px" height="500px"
+                        margin-width="0px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <script>
         new Glide(".images", {
             type: 'carousel',
@@ -295,6 +389,7 @@
             window.scrollReveal = new scrollReveal({ reset: true, move: '50px' });
         })();
     </script>
+    <script src="js/iconfont.js"></script>
 </body>
 
 </html>
