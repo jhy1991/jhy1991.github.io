@@ -15,6 +15,9 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #header {
     width: 100%;
@@ -63,25 +66,35 @@ body {
 }
 .menu1 ul {
     height: 100%;
+    display: flex;
 }
 .menu1 li {
     list-style: none;
     float: right;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .menu1 li a {
     text-decoration: none;
     display: block;
     height: 100%;
     padding: 0 17px;
-    margin-top: 9px;
+    margin: 9px 0px;
     font-size: 14px;
     color: #47536e;
+    transition: all 0.5s;
     
+}
+.menu1 li a:hover {
+    background-color: #7fd3d6;
+    border:5px solid #7fd3d6;
+        border-radius: 25px;
 }
 .menu1 li .Github {
     border: 1px solid pink;
-    margin-top: -3px;
+    margin-top: 6px;
     line-height: 42px;
     background-color:#13d8df;
     border-radius: 25px;
@@ -89,11 +102,10 @@ body {
     width: 50px;
     margin-left: 20px;
     text-align: center;
+    transition: all 0.5s;
 
 }
-.menu1 li a:hover {
-    color: #5777ba;
-}
+
 .box1 {
     height: 303px;
     width: 100%;
@@ -432,7 +444,6 @@ body {
         ) format('svg'
         );
 }
-
 .iconfont {
     font-family:
         "iconfont"
@@ -445,6 +456,123 @@ body {
     display: block;
     padding-top: 5px; */
 }
+.zhou {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.zhou-1
+{
+    width: 1110px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border:1px #ffffff solid;
+    border-radius: 100px;
+
+}
+.zhou-2 {
+    width: 1110px;
+    height: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: pink;
+    display: flex;
+   
+}
+.zhou-3 {
+    width: 1110px;
+    height: 500px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color:#9efcff;
+    display: flex;
+}
+.zhou-4 {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.zhou-4 .Bofang {
+    height: 400px;
+    width: 200px;
+}
+.zhou-4 .Bofang ul {
+    display: flex;
+    height: 400px;
+    width: 200px;
+    flex-direction: column;
+}
+
+
+.zhou-4 .Bofang ul li {
+    flex:1;
+    /* height: 66.6px;
+    width: 100%; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.zhou-4 .Bofang ul li:hover {
+    background-color: rgb(87, 235, 255);
+    
+}
+.zhou-4 .Bofang ul li h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #4f7396
+    
+}
+
+.zhou-4 .Bofang ul li svg {
+    font-size: 30px;
+    transition: all 0.5s;
+}
+.zhou-4 .Bofang ul li svg:hover {
+    font-size: 50px;
+}
+.zhou-5 {
+    width: 910px;
+    height: 100%;
+    background-color: rgb(109, 255, 211);
+}
+.zhou-2 .Touxiang {
+
+    width: 200px;
+    height: 100%;
+
+
+}
+.zhou-2 .title {
+    width: 910px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.zhou-2 .title h2 {
+    color:#5777BA;
+    font-weight: 400;
+    font-size: 40px;
+}
+.zhou-2 .title h4 svg {
+    transition: all 0.5s;
+    font-size: 50px;
+}
+.zhou-2 .title h4 svg:hover {
+    font-size: 65px;
+}
+
+
+
 
 
 
